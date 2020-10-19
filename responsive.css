@@ -1,0 +1,449 @@
+     /*=================================中小型笔记本或大平板 laptop /*=================================*/
+     @media screen and (max-width: 1680px) {
+
+         .logo {
+             margin-left: 0;
+         }
+
+     }
+    
+
+    @media screen and (max-width: 1620px) {
+        .w1600{
+            width: 92%;
+            margin: 0 auto;
+        }
+         .deta_list ul li{
+            width: 33%;
+            height:394px;
+         }
+         .deta_list ul li figure {
+            height: 100%;
+         }
+         .deta_list ul li figure img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+         }
+         .innews_left{
+            max-width:50%;
+         }
+         .news_con{
+            max-width:48%;
+         }
+         .product_list ul li{
+            width: 32%;
+            height:400px;
+            margin-right: 1%;
+            margin-bottom: 1%;
+         }
+         .module_page2 a.more{
+            margin-top:4%;
+         }
+
+     }
+
+     @media screen and (max-width: 1440px) {
+
+         .logo {
+             margin-left: 0;
+         }
+         .header{
+            background-position:-200px;
+         }
+         .header_con{
+            display: none;
+         }
+     }
+
+
+
+
+
+
+     @media screen and (max-width: 1200px) {
+
+         .nav {
+             display: none;
+         }
+
+         .menu {
+             display: block;
+             float: right;
+         }
+
+         .menu_down {
+             position: absolute;
+             left: 0;
+             z-index: 9999999;
+             width: 100%;
+             padding-bottom: 22px;
+             background: rgba(47,125, 30, 0.9);
+         }
+
+         .menu_down li {
+             line-height: 3.5;
+             text-align: center;
+             border-bottom: 1px solid #fff;
+         }
+
+         .menu_down li a {
+             display: block;
+             font-size: 18px;
+             color: #fff;
+         }
+
+         .menu span.icon-bar {
+             background: #000;
+             width: 26px;
+             height: 2px;
+             display: block;
+             -webkit-transition: all 300ms ease-out;
+             -moz-transition: all 300ms ease-out;
+             transition: all 300ms ease-out;
+         }
+
+         .menu .sr-only {
+             display: none;
+         }
+
+         .menu .icon-bar:nth-child(2) {
+             -webkit-transform: rotate(0deg) translate(0, 0);
+             -moz-transform: rotate(0deg) translate(0, 0);
+             -ms-transform: rotate(0deg) translate(0, 0);
+             transform: rotate(0deg) translate(0, 0);
+             transform-origin: top left;
+         }
+
+         .menu .icon-bar:nth-child(3) {
+             margin-top: 8px;
+             -webkit-transform: scale(1, 1);
+             -moz-transform: scale(1, 1);
+             -ms-transform: scale(1, 1);
+             transform: scale(1, 1);
+             -webkit-transform-origin: center center;
+             -moz-transform-origin: center center;
+             -ms-transform-origin: center center;
+             transform-origin: center center;
+         }
+
+         .menu .icon-bar:nth-child(4) {
+             margin-top: 8px;
+             -webkit-transform: rotate(0deg) translate(0, 0);
+             -moz-transform: rotate(0deg) translate(0, 0);
+             -ms-transform: rotate(0deg) translate(0, 0);
+             transform: rotate(0deg) translate(0, 0);
+             transform-origin: top left;
+         }
+
+         .xz .icon-bar:nth-child(2) {
+             -webkit-transform: rotate(45deg) translate(4px, -3px);
+             -moz-transform: rotate(45deg) translate(4px, -3px);
+             -ms-transform: rotate(45deg) translate(4px, -3px);
+             transform: rotate(45deg) translate(4px, -3px);
+             transform-origin: 0 0;
+         }
+
+         .xz .icon-bar:nth-child(3) {
+             opacity: 0;
+         }
+
+         .xz .icon-bar:nth-child(4) {
+             -webkit-transform: rotate(-45deg) translate(3px, 2px);
+             -moz-transform: rotate(-45deg) translate(3px, 2px);
+             -ms-transform: rotate(-45deg) translate(3px, 2px);
+             transform: rotate(-45deg) translate(3px, 2px);
+         }
+         .nav{
+            display: none;
+         }
+         .header_con{
+            display: none;
+         }
+
+
+
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     /*=================================手机或小平板 phone=============================== */
+     @media screen and (max-width: 767px) {
+
+        .logo{
+            width: 60px;
+         }
+         .header{
+            height:70px;
+            padding-top: 5px;
+            background-position:-340px;
+         }
+         .module_page1{
+            padding:8% 0;
+            height:auto;
+         }
+         .w1200{
+            width: 92%;
+            margin: 0 auto;
+         }
+         .in_about_left{
+            width: 100%;
+            float: none;
+         }
+         .in_about_left h3{
+            font-size:28px;
+            margin-top: 6%;
+         }
+         .in_about_left h6{
+            font-size: 18px;
+            width: 100px;
+            height: 30px;
+            line-height: 30px;
+            background-size:100px;
+         }
+         .in_about_left p{
+            font-size: 15px;
+            line-height:2;
+         }
+         .in_about_right{
+            float: none;
+            margin: 0 auto;
+            margin-top: 8%;
+         }
+         .index_title{
+            -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+            padding:10% 0;
+            width: 92%;
+            margin: 0 auto;
+         }
+         .product_list{
+            width: 92%;
+            margin: 0 auto;
+         }
+         .product_list ul li{
+            width: 100%;
+            height: 345px;
+            margin-bottom: 20px;
+         }
+         .module_page2{
+            padding-bottom: 10%;
+         }
+         .module_page2 a.more{
+            margin-top: 10px;
+         }
+         .index_title p{
+            padding-top: 10px;
+
+         }
+         .deta_list{
+            width: 92%;
+            margin: 0 auto;
+         }
+         .deta_list ul li{
+            width: 49.5%;
+            height:165px;
+         }
+         .deta_list ul li p{
+            width: 88%;
+            left:6%;
+            font-size: 16px;
+            bottom:20px;
+         }
+         .module_page3{
+            padding-bottom: 10%;
+         }
+         .in_news_nav ul li{
+            width: 25%;
+            margin-left: 0;
+         }
+         .in_news_nav{
+            width: 100%;
+            margin-top:6%;
+            margin-bottom:4%;
+         }
+         .in_news_nav ul li.choose a{
+            text-align: center;
+         }
+         .innews_left{
+            max-width:100%;
+            margin: 0 auto;
+            float: none;
+         }
+         .innews_left figcaption{
+            padding-left:20px;
+            height: 96px;
+            padding-right: 20px;
+         }
+         .innews_left figcaption p{
+            display: none;
+         }
+         .news_con{
+            max-width: 100%;
+            margin: 0 auto;
+            margin-top: 6%;
+            float:none;
+         }
+         .news_list ul li{
+            padding:6%;
+         }
+         .news_list ul li .right{
+            padding-left: 24px;
+         }
+         .news_next a{
+            width: 50%;
+            margin:0;
+            text-align: center;
+         }
+         .news_next a:first-child{
+            margin-left: 0;
+         }
+         .module_page4{
+            padding-bottom: 8%;
+         }
+         .footer_top figcaption{
+            width: 100%;
+            right:0;
+            padding-top: 8%;
+            z-index:9999;
+         }
+         .footer_top figcaption h3{
+            font-size: 24px;
+         }
+         .footer_top figcaption .con_tel h3{
+            font-size: 36px;
+         }
+         .footer_top figcaption .con_list ul li{
+            padding-left:30px;
+            font-size: 14px;
+         }
+         .footer_top figcaption .con_list ul li::after{
+            left:10px;
+            top:16px;
+         }
+         .footer_top{
+            height:415px;
+         }
+         .copy a{
+            display: none;
+         }
+         .copy{
+            width: 92%;
+            margin: 0 auto;
+            height: 70px;
+            padding:10px 0;
+            line-height: 1.8;
+         }
+         .inside_bottom{
+            height:160px;
+         }
+         .inside_bottom .w1200 .left{
+            display: none;
+         }
+         .inside_nav{
+            width: 100%;
+         }
+         .inside_nav ul li{
+            width: 48%;
+            margin-right: 4%;
+            margin-bottom: 4%;
+         }
+         .inside_nav ul li:nth-child(2n){
+            margin-right: 0;
+         }
+         .inside_nav ul li:nth-child(3){
+            margin-bottom: 0;
+         }
+         .inside_nav ul li:nth-child(4){
+            margin-bottom: 0;
+         }
+         .inside_nav ul li a{
+            padding:0;
+            font-size: 15px;
+         }
+         .inside_header {
+            height: auto;
+         }
+         .prodea_con{
+            padding:8% 0;
+         }
+         .prodea_con h3{
+            font-size: 22px;
+         }
+         .product_swiper .gallery-top .swiper-slide img{
+            width: 100%;
+            height: 345px;
+         }
+         .product_swiper .gallery-thumbs{
+            width: 345px;
+         }
+         .product_swiper2 .gallery-top .swiper-slide img{
+            width: 100%;
+            height: 345px;
+         }
+         .product_swiper2 .gallery-thumbs{
+            width: 345px;
+         }
+         .news_list1{
+            padding:8% 0;
+         }
+         .news_list1 h3{
+            font-size: 22px;
+            margin-bottom:8%;
+         }
+         .news_list1 ul li{
+            width: 100%;
+            margin-bottom: 6%;
+         }
+         .news_list1 ul li:last-child{
+            margin-bottom: 0;
+         }
+         .news_list2{
+            padding: 8% 0;
+         }
+         .news_list2 ul li{
+            width: 100%;
+         }
+         .newsdea_title h3{
+            font-size: 20px;
+         }
+         .newsdea_title p{
+            margin-top: 20px;
+         }
+         .news_endit{
+            font-size: 15px;
+            line-height: 2.2;
+            width: 92%;
+         }
+         .news_dea{
+            padding:8% 0;
+         }
+         .footer_top figure{
+            opacity: 0;
+         }
+
+
+
+
+
+
+
+
+
+     }

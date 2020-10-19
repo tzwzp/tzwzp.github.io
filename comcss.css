@@ -1,0 +1,300 @@
+@charset "UTF-8";
+/*goolge字体开始*/
+@import url("font.css")/*tpa=http://www.tzwzp.com/Tpl/Home/Public/css/font.css*/;
+html{font-size:62.5%; /* 10÷16=62.5% */ -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;-webkit-text-size-adjust:none;}
+body,div,dl,dt,dd,ul,ol,li,pre,code,form,fieldset,legend,input,textarea,button,blockquote,th,td,p,figure
+{font-family: "Microsoft Yahei","华文细黑", STXiHei, "华文黑体", "ST Heiti", "MS黑体","Helvetica Neue", Helvetica, Arial, sans-serif;
+padding:0;margin:0;font-size:14px;font-size:1.4rem;}
+fieldset, img{border:0;}
+table{border-collapse:collapse;border-spacing:0;}
+ol,ul{list-style:none;font-size:0;}
+address,caption,cite,code,dfn,em,th,var{font-weight:normal;font-style:normal;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{padding:0;margin:0;font-weight: 400;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;}
+input,button,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit; vertical-align:middle; border:none;}
+:focus{outline:0;}
+.clearfix:after{content:".";height:0;visibility:hidden;display:block;clear:both; font-size:0; line-height:0}
+input[type="button"],input[type="submit"],input[type="reset"]{
+	-webkit-appearance:none;
+	outline:none;
+}
+/*-webkit-appearance会将webkit浏览器中的元素默认样式去除。checkbox在这个属性下就直接隐藏掉了。然后用JS获取checkbox值时Webkit浏览器会报很奇怪的错误。给这个元素重新赋上-webkit-appearance:checkbox就不会报错了。*/
+.ease,
+.ease div,
+.ease section,
+.ease article,
+.ease aside,
+.ease ul,
+.ease ul li,
+.ease li,
+.ease a,
+.ease li a,
+.ease dt,
+.ease dd
+{
+		-o-transition:ease .3s;
+		-ms-transition:ease .3s;
+		-moz-transition:ease .3s;
+		-webkit-transition:ease .3s;
+		transition:ease .3s;
+}
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+a{color:#444; text-decoration:none;}/*默认链接显示颜色666666*/
+a:hover{color:#2569b4; text-decoration:none;}/*默认链接鼠标移上去显示颜色996600*/
+img,object{
+	max-width:100%;
+	vertical-align:top;
+}
+td{border:solid #efefef; border-width:0px 1px 1px 0px;}/*td表格颜色为efefef 左1px 下1px*/
+table{border:solid #efefef; border-width:1px 0px 0px 1px;}/*table表格颜色为efefef 上1px 右1px*/
+article,aside,details,hgroup,dialog,footer,header,section,footer,nav,figure,menu,figcaption{display:block}/*html5*/
+audio,
+canvas,
+progress,
+video {
+	display: inline-block;
+	vertical-align: baseline;
+}
+.omit1{
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden;
+}
+/*单行文字溢出省略*/
+.omit2{
+	overflow : hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+.omit3{
+	overflow : hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+.omit4{
+	overflow : hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+}
+.omit5{
+	overflow : hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 5;
+	-webkit-box-orient: vertical;
+}
+/*多行文字溢出省略*/
+/*文字省略all*/
+[data-css="fontshadow"]{
+	text-shadow:1px 1px 1px #000;
+}
+/*文字阴影X轴1px、Y轴1px、模糊1px、颜色（黑）兼容IE10+*/
+.clear{clear:both;}/*清除浮动*/
+
+.sbar{
+	overflow-y: scroll;
+}
+.sbar::-webkit-scrollbar {  
+  width: 14px;  
+  height: 14px;  
+}  
+  
+.sbar::-webkit-scrollbar-track,  
+.sbar::-webkit-scrollbar-thumb {  
+  border-radius: 999px;  
+  border: 5px solid transparent;  
+}  
+  
+.sbar::-webkit-scrollbar-track {  
+  box-shadow: 1px 1px 5px rgba(255,255,255,.2) inset;  
+}  
+  
+.sbar::-webkit-scrollbar-thumb {
+  min-height: 20px;
+  background-clip: content-box;
+  box-shadow: 0 0 0 5px rgba(255,255,255,.2) inset;
+}  
+  
+.sbar::-webkit-scrollbar-corner {  
+  background: transparent;  
+} 
+
+/*----------------滚动条----------------------*/
+
+/*comcss*/
+.copyall{
+	width: 100%;
+	background: #000;
+	text-align: center;
+}
+.copy{
+	color:#999;
+	font-size: 1.4rem;
+	line-height: 3.5;
+}
+.copy a{
+
+	display: inline-block;
+	vertical-align: middle;
+}
+.copy a img{
+	vertical-align: middle;
+	margin-top:-2px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*width*/
+.w1200{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.w1100{
+	max-width: 1100px;
+	margin: 0 auto;
+}
+.w1000{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.w990{
+	max-width: 990px;
+	margin: 0 auto;
+}
+.w100{
+	width: 100%;
+	margin: 0 auto;
+}
+.w50{
+	width: 50%;
+	margin: 0 auto;
+}
+
+.flex{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -o-flex;
+	display: -ms-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+	-o-justify-content: space-between;
+	-ms-justify-content: space-between;
+	justify-content: space-between;
+	-webkit-flex-wrap: nowrap;
+	-moz-flex-wrap: nowrap;
+	-o-flex-wrap: nowrap;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+}
+.mod2 ul{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -o-flex;
+	display: -ms-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+	-o-justify-content: space-between;
+	-ms-justify-content: space-between;
+	justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.mod2 li{
+	width:50%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding:2%;
+	
+}
+.mod3 ul{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -o-flex;
+	display: -ms-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+	-o-justify-content: space-between;
+	-ms-justify-content: space-between;
+	justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.mod3 li{
+	width:33.33%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding:2%;
+	
+}
+.mod4 ul{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -o-flex;
+	display: -ms-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+	-o-justify-content: space-between;
+	-ms-justify-content: space-between;
+	justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.mod4 li{
+	width:25%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding:2%;	
+}
+
+/* 分页 */
+.pageNav{font-family:Arial,Helvetica,sans-serif;padding-top:10px;text-align:right}
+.pageNav a,
+.pageNav span{margin:0 3px;width:28px;height:28px;line-height:28px;background:#e7e7e7;
+display:inline-block;*display:inline;*zoom:1;text-align:center}
+.pageNav span.info{background:none}
+.pageNav a:hover,
+.pageNav span.current{background:#ff534f;color:#fff}
+.pageNavLeft{text-align:left}
+.pageNavCenter{text-align:center}
+.pageNavRight{text-align:right}
+
+.notdata{line-height:35px;border:1px dashed #ccc;margin:20px 0;text-align:center}
+.notdataw{color:#fff;padding:50px 0}
+
+.loading-wrap{ margin-top:10px;bottom:50px;width:100%;text-align:center;display:none;}
+.loading{ position:relative;display:inline-block;padding:5px 5px 5px 50px;line-height:28px;color:#333;font-size:14px;border-radius:5px;background:url("loading.gif")/*tpa=http://www.tzwzp.com/Public/images/loading.gif*/ 10px center no-repeat;}
+
+/* 以上为通用样式 */
