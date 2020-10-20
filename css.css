@@ -527,7 +527,7 @@
 	position: absolute;
 	width: 500px;
 	height: 100%;
-	background: #195c0a;
+	background: #51ca36;
 	padding:0 30px;
 	top:0;
 	right:160px;
@@ -535,7 +535,7 @@
 }
 .footer_top figcaption h3{
 	font-size: 36px;
-	color: #fff;
+	color: #000;
 	padding-bottom:25px;
 	border-bottom:1px solid #2f7d1e;
 }
@@ -559,7 +559,7 @@
 }
 .footer_top figcaption .con_tel p{
 	font-size: 14px;
-	color: #fff;
+	color: #000;
 }
 .footer_top figcaption .con_list{
 	margin-top: 20px;
@@ -567,7 +567,7 @@
 .footer_top figcaption .con_list ul li{
 	position: relative;
 	font-size: 16px;
-	color: #fff;
+	color: #000;
 	line-height: 24px;
 	padding:10px 0;
 	padding-left: 60px;
