@@ -10,10 +10,11 @@
 
 @font-face {
   font-family: '逐浪温莎雅楷体';
-  src: url("逐浪温莎雅楷体.woff2")/*tpa=http://www.tzwzp.com/Tpl/Home/Public/font/逐浪温莎雅楷体.woff2*/,
-  url("逐浪温莎雅楷体.woff")/*tpa=http://www.tzwzp.com/Tpl/Home/Public/font/逐浪温莎雅楷体.woff*/,
-  url("逐浪温莎雅楷体.ttf")/*tpa=http://www.tzwzp.com/Tpl/Home/Public/font/逐浪温莎雅楷体.ttf*/,
-  url("逐浪温莎雅楷体.otf")/*tpa=http://www.tzwzp.com/Tpl/Home/Public/font/逐浪温莎雅楷体.otf*/;
+  src: 
+  /* url("逐浪温莎雅楷体.woff2")tpa=http://www.tzwzp.com/Tpl/Home/Public/font/逐浪温莎雅楷体.woff2,
+  url("逐浪温莎雅楷体.woff")tpa=http://www.tzwzp.com/Tpl/Home/Public/font/逐浪温莎雅楷体.woff,
+  url("逐浪温莎雅楷体.ttf")tpa=http://www.tzwzp.com/Tpl/Home/Public/font/逐浪温莎雅楷体.ttf, */
+  url("逐浪温莎雅楷体.otf")
 
 }
 
