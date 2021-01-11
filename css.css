@@ -23,6 +23,12 @@
 	width: 100px;
 	margin-left: 160px;
 }
+.logo2{
+	width: 50px;
+}
+.copy img{
+	width: 40px;
+}
 .nav ul li{
 	float: left;
 	min-width: 90px;
