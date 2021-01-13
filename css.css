@@ -7,7 +7,7 @@
 .header{
 	height: 100px;
 	width: 100%;
-	background: url("header_bg.jpg")/*tpa=http://www.tzwzp.com/Tpl/Home/Public/images/header_bg.jpg*/ no-repeat center center;
+	background: url("header_bg.svg") no-repeat center center;
 }
 .header_top{
 	display: -webkit-flex;
