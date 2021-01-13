@@ -84,7 +84,7 @@
 .module_page1{
 	width: 100%;
 	padding-top: 88px;
-	background: url("module_page1.jpg")/*tpa=http://www.tzwzp.com/Tpl/Home/Public/images/module_page1.jpg*/ no-repeat center bottom;
+	background: url("https://img.alicdn.com/imgextra/i1/701111735/O1CN01cuD5CG1OgfpUoT6oI_!!701111735.jpg")no-repeat center bottom;
 	height:830px;
 }
 .in_about_left{
@@ -96,7 +96,7 @@
 	width: 158px;
 	height: 45px;
 	line-height: 45px;
-	background: url("index_img01.png")/*tpa=http://www.tzwzp.com/Tpl/Home/Public/images/index_img01.png*/ no-repeat center center;
+	background: url("index_img01.png")no-repeat center center;
 	text-align: center;
 	font-size: 24px;
 	color: #fff;
@@ -220,7 +220,7 @@
 	position: absolute; 
 	width: 32px;
 	height: 12px;
-	background: url("right.png")/*tpa=http://www.tzwzp.com/Tpl/Home/Public/images/right.png*/ no-repeat center center;
+	background: url("right.png")no-repeat center center;
 	top:calc(50% - 6px);
 	right:65px;
 	z-index:10;
@@ -251,7 +251,7 @@
 	position: absolute; 
 	width: 98px;
 	height: 6px;
-	background: url("right2.png")/*tpa=http://www.tzwzp.com/Tpl/Home/Public/images/right2.png*/ no-repeat center center;
+	background: url("right2.png")no-repeat center center;
 	right:34px;
 	top:calc(50% - 3px);
 	z-index:9;
@@ -264,7 +264,7 @@
 	color: #fff;
 }
 .module_page2 a.more:hover::after{
-	background: url("right3.png")/*tpa=http://www.tzwzp.com/Tpl/Home/Public/images/right3.png*/ no-repeat center center;
+	background: url("right3.png")no-repeat center center;
 }
 .module_page3 .w1600{
 	border-top:4px solid #2f7d1e;
@@ -583,7 +583,7 @@
 	position: absolute;
 	width: 7px;
 	height: 10px;
-	background: url("right4.png")/*tpa=http://www.tzwzp.com/Tpl/Home/Public/images/right4.png*/ no-repeat center center;
+	background: url("right4.png")no-repeat center center;
 	top:17px;
 	left:40px;
 }
@@ -689,7 +689,7 @@
 	margin-right: 0;
 }
 .news_list1{
-	background:url("news_bg.jpg")/*tpa=http://www.tzwzp.com/Tpl/Home/Public/images/news_bg.jpg*/ no-repeat center bottom;
+	background-image: linear-gradient(#fff, #eee);
 	padding:70px 0;
 }
 .news_list1 h3{
@@ -804,7 +804,7 @@
 .prodea_con{
 	width: 100%;
 	padding:80px 0 100px 0;
-	background: url("news_bg.jpg")/*tpa=http://www.tzwzp.com/Tpl/Home/Public/images/news_bg.jpg*/ no-repeat center bottom;
+	background: linear-gradient(#fff, #eee);
 }
 .product_swiper .gallery-top .swiper-slide{
 	text-align: center;
