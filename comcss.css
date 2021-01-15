@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*goolge字体开始*/
-@import url("font.css")/*tpa=http://www.tzwzp.com/Tpl/Home/Public/css/font.css*/;
+@import url("font.css");
 html{font-size:62.5%; /* 10÷16=62.5% */ -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;-webkit-text-size-adjust:none;}
 body,div,dl,dt,dd,ul,ol,li,pre,code,form,fieldset,legend,input,textarea,button,blockquote,th,td,p,figure
@@ -295,6 +295,6 @@ display:inline-block;*display:inline;*zoom:1;text-align:center}
 .notdataw{color:#fff;padding:50px 0}
 
 .loading-wrap{ margin-top:10px;bottom:50px;width:100%;text-align:center;display:none;}
-.loading{ position:relative;display:inline-block;padding:5px 5px 5px 50px;line-height:28px;color:#333;font-size:14px;border-radius:5px;background:url("loading.gif")/*tpa=http://www.tzwzp.com/Public/images/loading.gif*/ 10px center no-repeat;}
+.loading{ position:relative;display:inline-block;padding:5px 5px 5px 50px;line-height:28px;color:#333;font-size:14px;border-radius:5px;background:url("https://img.alicdn.com/imgextra/i4/701111735/O1CN01nGiFft1OgfpXDx4Gh_!!701111735.gif") 10px center no-repeat;}
 
 /* 以上为通用样式 */
