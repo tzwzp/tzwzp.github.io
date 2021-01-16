@@ -875,3 +875,5 @@
 .banner {
 	text-align: center;
 }
+.banner .swiper-container .swiper-wrapper .swiper-slide img{
+	width: 1920px;}

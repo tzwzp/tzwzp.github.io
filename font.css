@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'iconfont';  /* project id 1476723 */
-  src: url("http://at.alicdn.com/t/font_1476723_8rz44yklgoy.eot");
-  src: url("http://at.alicdn.com/t/font_1476723_8rz44yklgoy.eot-#iefix")/*tpa=http://at.alicdn.com/t/font_1476723_8rz44yklgoy.eot?#iefix*/ format('embedded-opentype'),
-  url("http://at.alicdn.com/t/font_1476723_8rz44yklgoy.woff2") format('woff2'),
-  url("http://at.alicdn.com/t/font_1476723_8rz44yklgoy.woff") format('woff'),
-  url("http://at.alicdn.com/t/font_1476723_8rz44yklgoy.ttf") format('truetype'),
-  url("http://at.alicdn.com/t/font_1476723_8rz44yklgoy.svg#iconfont") format('svg');
+  src: url("https://at.alicdn.com/t/font_1476723_8rz44yklgoy.eot");
+  src: url("https://at.alicdn.com/t/font_1476723_8rz44yklgoy.eot-#iefix")/*tpa=http://at.alicdn.com/t/font_1476723_8rz44yklgoy.eot?#iefix*/ format('embedded-opentype'),
+  url("font_1476723_8rz44yklgoy.woff2") format('woff2'),
+  url("font_1476723_8rz44yklgoy.woff") format('woff'),
+  url("font_1476723_8rz44yklgoy.ttf") format('truetype'),
+  url("https://at.alicdn.com/t/font_1476723_8rz44yklgoy.svg#iconfont") format('svg');
 }/*文字导入全兼容*/
 
 @font-face {
